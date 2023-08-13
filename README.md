@@ -6,11 +6,11 @@
   - [Prepare the Data](#prepare-the-data)
   - [Create a DataFrame with the scaled data](#create-a-dataframe-with-the-scaled-data)
 - [Find the Best Value for k Using the Original Scaled DataFrame](#find-the-best-value-for-k-using-the-original-scaled-dataframe)
-- [Cluster Cryptocurrencies with K-means Using the Original Scaled Data](#cluster-cryptocurrencies-with-k-means-using-the-original-scaled-data)
+- [Cluster Cryptocurrencies with K means Using the Original Scaled Data](#cluster-cryptocurrencies-with-k-means-using-the-original-scaled-data)
 - [Optimize Clusters with Principal Component Analysis](#optimize-clusters-with-principal-component-analysis)
 - [Find the Best Value for k Using the PCA Data](#find-the-best-value-for-k-using-the-pca-data)
-- [Cluster Cryptocurrencies with K-means Using PCA Data](#cluster-cryptocurrencies-with-k-means-using-pca-data)
-- [Impact of Using Fewer Features with K-Means](#impact-of-using-fewer-features-with-k-means)
+- [Cluster Cryptocurrencies with K-means Using PCA Data](#cluster-cryptocurrencies-with-k-means)
+
 
 ## Introduction
 Use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
@@ -94,7 +94,7 @@ Answer the following question in your notebook: What is the best value for k whe
 Does it differ from the best k value found using the original data? <br />
 **No, I found it is the same k value as found using the original data**
 
-##Cluster Cryptocurrencies with K-means <br />
+## Cluster Cryptocurrencies with K-means
 
 Initialize the K-means model with the best value for k. <br />
 *model = KMeans(n_clusters=4, random_state=1)*
