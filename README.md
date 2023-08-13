@@ -5,7 +5,7 @@
   - [Get the summary statistics and plot the data](#get-the-summary-statistics-and-plot-the-data)
   - [Prepare the Data](#prepare-the-data)
   - [Create a DataFrame with the scaled data](#create-a-dataframe-with-the-scaled-data)
-- [Find the Best Value for k Using the Original Scaled DataFrame](#find-the-best-value-for-k-using-the-original-scaled-data)
+- [Find the Best Value for k Using the Original Scaled DataFrame](#find-the-best-value-for-k-using-the-original-scaled-dataframe)
 - [Cluster Cryptocurrencies with K-means Using the Original Scaled Data](#cluster-cryptocurrencies-with-k-means-using-the-original-scaled-data)
 - [Optimize Clusters with Principal Component Analysis](#optimize-clusters-with-principal-component-analysis)
 - [Find the Best Value for k Using the PCA Data](#find-the-best-value-for-k-using-the-pca-data)
@@ -15,7 +15,7 @@
 ## Introduction
 Use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
-## Preparing the data <br />
+## Preparing the data
 
 ![image](https://github.com/dclaxto1/CryptoClustering/assets/128431134/eb7333a5-92e6-49fc-9f98-1a22162ae388)
 
@@ -45,7 +45,7 @@ Answer the following question in your notebook: What is the best value for k? **
 
 
 
-## Cluster Cryptocurrencies with K-means Using the Original Scaled Data
+## Cluster Cryptocurrencies with K means Using the Original Scaled Data
 
 Initialize the K-means model with the best value for k. <br />
 *model = KMeans(n_clusters=4, random_state=1)*<br />
@@ -63,7 +63,7 @@ Add the "coin_id" column in the hover_cols parameter to identify the cryptocurre
 ![image](https://github.com/dclaxto1/CryptoClustering/assets/128431134/38f5371d-cf7e-4bf4-9cff-8596039033d7)
 
 
-## Optimize Clusters with Principal Component Analysis Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
+## Optimize Clusters with Principal Component Analysis
 
 What is the total explained variance of the three principal components? **0.37005408 + 0.32322221 + 0.19115222 = 0.8844285111826466**<br />
 Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.<br />
