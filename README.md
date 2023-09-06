@@ -90,7 +90,7 @@ Plot a line chart with all the inertia values computed with the different values
 ![image](https://github.com/dclaxto1/CryptoClustering/assets/128431134/46d475df-0786-4c77-8b8c-8b618a5d1535)
 
 Answer the following question in your notebook: What is the best value for k when using the PCA data?<br />
-**The best k-value is k=4 when using PCA data**
+**I found the best k-value is k=4 when using PCA data**
 Does it differ from the best k value found using the original data? <br />
 **No, I found it is the same k value as found using the original data**
 
