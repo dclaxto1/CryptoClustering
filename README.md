@@ -105,7 +105,7 @@ Fit the K-means model using the PCA data. <br />
 Predict the clusters to group the cryptocurrencies using the PCA data. <br />
 *k_4 = model.predict(cluster_pca_df)(
 
-Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters. <br />
+Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.. <br />
 *copy_cluster_pca_df= cluster_pca_df.copy()*
 
 Create a scatter plot using hvPlot as follows: Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d". <br />
