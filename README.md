@@ -34,7 +34,7 @@ Use your knowledge of Python and unsupervised learning to predict if cryptocurre
 
 ## Find the Best Value for k Using the Original Scaled DataFrame
 
-Create a list with the number of k values from 1 to 11. <br />
+Create a list with the number of k values from 1 to 11.  <br />
 Create an empty list to store the inertia values. <br />
 Create a for loop to compute the inertia with each possible value of k. <br />
 Create a dictionary with the data to plot the elbow curve. <br />
