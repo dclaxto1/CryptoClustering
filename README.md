@@ -39,7 +39,7 @@ Create an empty list to store the inertia values. <br />
 Create a for loop to compute the inertia with each possible value of k. <br />
 Create a dictionary with the data to plot the elbow curve. <br />
 Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k. <br />
-Answer the following question in your notebook: What is the best value for k? **k=4**<br />
+Answer the following question in your notebook: What is the best value for k? **k=4** <br />
 
 ![image](https://github.com/dclaxto1/CryptoClustering/assets/128431134/448cbb4e-76bd-4ba8-8bec-d2d2e84ef032)
 
