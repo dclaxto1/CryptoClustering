@@ -1,4 +1,4 @@
-# CryptoClustering    
+# CryptoClustering     
 
 - [Introduction](#introduction)
 - [Preparing the Data](#preparing-the-data)
