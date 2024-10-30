@@ -10,7 +10,7 @@
 - [Optimize Clusters with Principal Component Analysis](#optimize-clusters-with-principal-component-analysis)
 - [Find the Best Value for k Using the PCA Data](#find-the-best-value-for-k-using-the-pca-data)
 - [Cluster Cryptocurrencies with K-means Using PCA Data](#cluster-cryptocurrencies-with-k-means)
-
+  
 
 ## Introduction
 Use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes. 
