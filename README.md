@@ -2,7 +2,7 @@
   
 - [Introduction](#introduction)
 - [Preparing the Data](#preparing-the-data)
-  - [Get the summary statistics and plot the data](#get-the-summary-statistics-and-plot-the-data)
+  - [Get the summary statistics and plot the data](#get-the-summary-statistics-and-plot-the-data)  
   - [Prepare the Data](#prepare-the-data) 
   - [Create a DataFrame with the scaled data](#create-a-dataframe-with-the-scaled-data)
 - [Find the Best Value for k Using the Original Scaled DataFrame](#find-the-best-value-for-k-using-the-original-scaled-dataframe)
