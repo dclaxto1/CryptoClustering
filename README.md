@@ -1,6 +1,6 @@
 # CryptoClustering     
      
-- [Introduction](#introduction)  
+- [Introduction](#introduction)    
 - [Preparing the Data](#preparing-the-data)
   - [Get the summary statistics and plot the data](#get-the-summary-statistics-and-plot-the-data)     
   - [Prepare the Data](#prepare-the-data) 
