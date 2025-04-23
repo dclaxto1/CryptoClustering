@@ -1,5 +1,5 @@
 # CryptoClustering     
-     
+      
 - [Introduction](#introduction)    
 - [Preparing the Data](#preparing-the-data)
   - [Get the summary statistics and plot the data](#get-the-summary-statistics-and-plot-the-data)     
